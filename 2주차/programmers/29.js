@@ -28,6 +28,7 @@
 // 따라서 229를 return 해야 합니다.
 
 function solution(n) {
-  var answer = 0;
-  return answer;
+  let answer = n.toString(3).split("").reverse().join("");
+
+  return parseInt(answer, 3);
 }
